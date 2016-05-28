@@ -5,7 +5,7 @@
  * php index.php 3_28052016.xml
  *
  * Licence MIT
- * @author Antti Hätinen <pharazon@phz.fi
+ * @author Antti Hätinen <pharazon@phz.fi>
  */
 
 $xml = file_get_contents($argv[1]);
