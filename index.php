@@ -15,7 +15,7 @@ $payments = $data->{'pain.001.001.02'}->PmtInf->CdtTrfTxInf;
 $totalSum = 0.0;
 $count = 0;
 foreach ($payments as $payment) {
-    $sum = ((string) $payment->Amt->InstdAmt);
+    $sum = (string) $payment->Amt->InstdAmt;
     echo $sum . "\t" . $payment->Cdtr->Nm . PHP_EOL;
     $totalSum += $sum;
     $count++;
